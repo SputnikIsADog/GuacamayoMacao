@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href='./style.css'>
+
+</head>
+<title>Hábitat de Guacamayo Macao</title>
+<link rel="icon" type="./images/favicon.ico" href="./images/favicon.ico">
+<body>
+    <nav class="navbar">
+        <h1 class = "placeholder"></h1>
+        <ul class="nav-links">
+            <li class="inactive p0">Principal</li>
+            <li class = "inactive p1"><a href=""></a>Funciones Corporales</li>
+            <li class = "inactive p2">Dieta</li>
+            <li class = "active p3"><a href=""></a>Hábitat</li>
+            <li class = "inactive p4"><a href=""></a>Reproducción</li>
+        </ul>
+    </nav>
+    <div style="text-align: center;"> 
+        <section class="El Guacamayo Macao">
+            <div class="rainforest_animation">
+                <h1>El Guacamayo Macao</h1>
+                <div class="line"></div>
+            </div>
+    
+            <div style="text-align: center;"> 
+                <img src="./images/icon.png" class = "display_image" width = "405" height = "250">
+            </div>
+
+            <div class="paragraph_text"> 
+                <p>El guacamayo macao vive en muchas ubicaciones, ellos viven en el sur de México a Perú a la de este como el este de Brasil y a la del oeste como Bolivia. Generalmente viven en bosques. Los bosques son lugares con mucha vida, hay mucha vegetación como árboles y flores, etcétera. Hay muchos animales como las ranas y peces y animales peligrosos como serpientes que comen ellos niños. Pero, los guacamayos macacos adultos son generalmente seguras, porque son largos y tienen alas. Guacamayo macao prefieren vivir cerca de ríos porque tienen agua, arcilla que ellos comen para ayudar con las digestiones, y cerca muchos árboles cuál dar protección porque son árboles altos. Desafortunadamente, el hábitat está amenazado por la tala y la deforestación, restringirlos ellos hábitat</p>
+                <a href="./reproduccion.html" class="page_button">¡Apprendo mas!</a>
+            </div>
+        </section>
+    </div>
+    <script>
+        const p0 = document.querySelector('.p0')
+        p0.addEventListener('click', ()=> {
+            window.location.replace('./index.html');
+        })
+
+        const p1 = document.querySelector('.p1')
+            p1.addEventListener('click', ()=> {
+                window.location.replace('./cuerpo.html');
+        })
+
+        const p2 = document.querySelector('.p2')
+        p2.addEventListener('click', ()=> {
+            window.location.replace('./dieta.html');
+        })
+
+        const p3 = document.querySelector('.p3')
+        p3.addEventListener('click', ()=> {
+            window.location.replace('./habitat.html');
+        })
+
+        const p4 = document.querySelector('.p4')
+        p4.addEventListener('click', ()=> {
+            window.location.replace('./reproduccion.html');
+        })
+    </script>
+</body>
+</html>

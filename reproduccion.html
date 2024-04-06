@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href='./style.css'>
+
+</head>
+<title>Reproducción de Guacamayo Macao</title>
+<link rel="icon" type="./images/favicon.ico" href="./images/favicon.ico">
+<body>
+    <nav class="navbar">
+        <h1 class = "placeholder"></h1>
+        <ul class="nav-links">
+            <li class="inactive p0">Principal</li>
+            <li class = "inactive p1"><a href=""></a>Funciones Corporales</li>
+            <li class = "inactive p2">Dieta</li>
+            <li class = "inactive p3"><a href=""></a>Hábitat</li>
+            <li class = "active p4"><a href=""></a>Reproducción</li>
+        </ul>
+    </nav>
+
+    <div style="text-align: center;"> 
+        <section class="El Guacamayo Macao">
+            <div class="rainforest_animation">
+                <h1>El Guacamayo Macao</h1>
+                <div class="line"></div>
+            </div>
+    
+            <div style="text-align: center;"> 
+                <img src="./images/baby.gif" class = "display_image" width = "405" height = "250">
+            </div>
+
+            <div class="paragraph_text"> 
+                <p>Ellos reproducen aproximadamente en uno o dos años, pero primero necesitan tener tres o cuatro años. El guacamayo macao son monógamo, pero ambos la mamá y papá ayudarse mutuamente. Desafortunadamente, el hábitat está amenazado porque tala y la deforestación. Es interrumpe el ciclo reproductivo de la guacamaya macao, decreciente ellos población. ¡Necesita usted ayuda! Por favor, dona para salvarlos o la guacamaya macao podría extinguirse!</p>
+                <a href="https://www.worldwildlife.org/pages/help-protect-the-amazon-so-macaws-and-other-wildlife-have-a-place-to-call-home#:~:text=Text%20MACAW%20to%2020222%20to,authorized%20by%20the%20account%20holder." class="page_button">¡Ayúdalos!</a>
+            </div>
+        </section>
+    </div>
+    <script>
+        const p0 = document.querySelector('.p0')
+        p0.addEventListener('click', ()=> {
+            window.location.replace('./index.html');
+        })
+
+        const p1 = document.querySelector('.p1')
+            p1.addEventListener('click', ()=> {
+                window.location.replace('./cuerpo.html');
+        })
+
+        const p2 = document.querySelector('.p2')
+        p2.addEventListener('click', ()=> {
+            window.location.replace('./dieta.html');
+        })
+        
+
+        const p3 = document.querySelector('.p3')
+        p3.addEventListener('click', ()=> {
+            window.location.replace('./habitat.html');
+        })
+
+        const p4 = document.querySelector('.p4')
+        p4.addEventListener('click', ()=> {
+            window.location.replace('./reproduccion.html');
+        })
+    </script>
+</body>
+</html>

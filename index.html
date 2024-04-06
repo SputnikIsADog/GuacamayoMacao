@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href='./style.css'>
+
+</head>
+<title>Guacamayo Macao - Principal</title>
+<link rel="icon" type="./images/favicon.ico" href="./images/favicon.ico">
+<body>
+    <nav class="navbar">
+        <h1 class = "placeholder"></h1>
+        <ul class="nav-links">
+            <li class="active p0">Principal</li>
+            <li class = "inactive p1"><a href=""></a>Funciones Corporales</li>
+            <li class = "inactive p2">Dieta</li>
+            <li class = "inactive p3"><a href=""></a>Hábitat</li>
+            <li class = "inactive p4"><a href=""></a>Reproducción</li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2 class = "rainforest_animation">El Guacamayo Macao</h2>
+            <div class="line"></div>
+            <h1></h1>
+            <div class="paragraph_text">
+                <p>¡La guacamaya roja es el ave más reconocible del mundo entero! Los colores vibrantes y tropicales, los rojos, amarillos y azules hacen de la guacamaya roja una de las aves más hermosas del mundo. Este sitio web le guiará a través de información sobre ellos, incluyendo información sobre <i>dónde viven</i>, <i>hábitat</i>, <i>nos partes del cuerpo y funciones corporales</i>, <i>nos muerte</i>, finamnete <i>información reproductiva y de la población.</i></p>
+                <a href="./cuerpo.html" class="page_button">¡Apprendo mas!</a>
+            </div>
+        </div>
+    </header>
+    <script>
+        const p0 = document.querySelector('.p0')
+        p0.addEventListener('click', ()=> {
+            window.location.replace('./index.html');
+        })
+
+        const p1 = document.querySelector('.p1')
+            p1.addEventListener('click', ()=> {
+                window.location.replace('./cuerpo.html');
+        })
+
+        const p2 = document.querySelector('.p2')
+        p2.addEventListener('click', ()=> {
+            window.location.replace('./dieta.html');
+        })
+
+        const p3 = document.querySelector('.p3')
+        p3.addEventListener('click', ()=> {
+            window.location.replace('./habitat.html');
+        })
+
+        const p4 = document.querySelector('.p4')
+        p4.addEventListener('click', ()=> {
+            window.location.replace('./reproduccion.html');
+        })
+    </script>
+</body>
+</html>

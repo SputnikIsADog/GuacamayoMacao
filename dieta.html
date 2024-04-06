@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href='./style.css'>
+
+</head>
+<title>Dieta de Guacamayo Macao</title>
+<link rel="icon" type="./images/favicon.ico" href="./images/favicon.ico">
+<body>
+    <nav class="navbar">
+        <h1 class = "placeholder"></h1>
+        <ul class="nav-links">
+            <li class="inactive p0">Principal</li>
+            <li class = "inactive p1"><a href=""></a>Funciones Corporales</li>
+            <li class = "active p2">Dieta</li>
+            <li class = "inactive p3"><a href=""></a>Hábitat</li>
+            <li class = "inactive p4"><a href=""></a>Reproducción</li>
+        </ul>
+    </nav>
+
+    <div style="text-align: center;"> 
+        <section class="Dieta de Guacamayo Macao">
+            <div class="rainforest_animation">
+                <h1>Dieta de Guacamayo Macao</h1>
+                <div class="line"></div>
+            </div>
+    
+            <div style="text-align: center;"> 
+                <img src="./images/diet.webp" class = "display_image" width = "405" height = "250">
+            </div>
+
+            <div class="paragraph_text"> 
+                <p>El guacamayo macao comen nueces, hojas, bayas y semillas de los bosques. Esta es lo más de la dieta de ellos, pero es complementa con los insectos. Ellos son consumidores secundarios porque comen insectos y caracoles, lo que significa que son omnívoros. Tienen un pico fuerte cúal es perfecto para comer nueces y semillas. Interesante, el guacamayo macao comen frutas que son increíblemente tóxicas y sobreviven. Posiblemente porque ellos comen mucha arcilla que ellos comen para ayudar con las digestiones y posiblemente anula la comida tóxica. El suministro de alimentos es amenazado por la actividad humana.</p>
+                <a href="./habitat.html" class="page_button">¡Apprendo mas!</a>
+            </div>
+        </section>
+    </div>
+    <script>
+        const p0 = document.querySelector('.p0')
+        p0.addEventListener('click', ()=> {
+            window.location.replace('./index.html');
+        })
+
+        const p1 = document.querySelector('.p1')
+            p1.addEventListener('click', ()=> {
+                window.location.replace('./cuerpo.html');
+        })
+
+        const p2 = document.querySelector('.p2')
+        p2.addEventListener('click', ()=> {
+            window.location.replace('./dieta.html');
+        })        
+
+        const p3 = document.querySelector('.p3')
+        p3.addEventListener('click', ()=> {
+            window.location.replace('./habitat.html');
+        })
+
+        const p4 = document.querySelector('.p4')
+        p4.addEventListener('click', ()=> {
+            window.location.replace('./reproduccion.html');
+        })
+    </script>
+</body>
+</html>
